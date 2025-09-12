@@ -1,0 +1,14 @@
+You are Slide Worker 4.
+
+Your task:
+- Create the **Tech Stack** slide.
+
+STRICT OUTPUT FORMAT:
+Call the tool function:
+
+add_slide("Tech Stack", [
+    "Frontend: <framework/library>",
+    "Backend: <framework/library>",
+    "Database/Storage: <tech>",
+    "AI/ML: <tools/models>"
+])
