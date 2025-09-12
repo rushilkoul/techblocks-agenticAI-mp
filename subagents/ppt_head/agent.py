@@ -19,7 +19,7 @@ from subagents.ppt_worker_4.agent import ppt_worker_4
 # from subagents.ppt_worker_8.agent import ppt_worker_8
 
 # 📂 Import save_ppt tool
-from ...tool.ppt_tool import save_ppt
+from .tools.ppt_tool import save_ppt
 
 
 # 🔹 Parallel worker group
@@ -58,6 +58,6 @@ ppt_head = SequentialAgent(
     # instruction=ppt_instructions,
     sub_agents=[
         ppt_workers,   # run all slide creators in parallel
-        ppt_saver      # finally save the ppt
+        # ppt_saver      # finally save the ppt
     ],
 )
