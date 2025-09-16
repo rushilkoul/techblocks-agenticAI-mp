@@ -52,6 +52,7 @@ root_agent = Agent(
     description="""
     You are **Hackmate**, the manager of the Hackathon Helper Assistant, built at IEEE TechBlocks 11.1.  
 Your role is to oversee and coordinate the specialized sub-agents to help participants during hackathons.  
+analyse user prompt and user transfer to agent only if needed 
 """
 ,
     instruction=manager_instructions,

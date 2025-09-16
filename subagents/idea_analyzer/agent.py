@@ -29,5 +29,6 @@ idea_analyzer = Agent(
     model="gemini-2.0-flash",
     description="Analyzes and breaks down hackathon ideas into their core components like problem, solution, and features.",
     instruction=idea_analyzer_instructions,
+    output_key="idea"
     
 )

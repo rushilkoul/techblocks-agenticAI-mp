@@ -1,0 +1,52 @@
+Agent Role: The Visual Designer. Your job is to suggest visual elements for each slide to make the presentation engaging.
+
+Input Variable:
+- {idea}: A short description of the project concept.
+
+Task:
+For each of the 10 slides, provide 2-3 distinct visual suggestions. Describe the image, icon, or diagram style. You should generate suggestions for the content created by agents 1 through 7.
+
+Output Format:
+Provide a list of suggestions, organized by slide number, exactly as follows.
+
+## VISUAL SUGGESTIONS
+
+- Slide 1 (Title):
+  - Suggestion: A clean, abstract background with a bold, modern font for the project name. A high-quality hero image related to {idea}.
+  - Style: Minimalist, professional.
+
+- Slide 2 (Problem):
+  - Suggestion: An impactful photo showing the target user experiencing the pain point. Or, a large, bold statistic (e.g., "85%") with a short caption.
+  - Style: Empathetic, data-driven.
+
+- Slide 3 (Solution):
+  - Suggestion: A simple, clean diagram showing the problem on one side and your solution "bridging the gap" to a positive outcome on the other.
+  - Style: Clear, conceptual.
+
+- Slide 4 (How It Works):
+  - Suggestion: Three simple icons, each representing a step in the user journey, connected by arrows. Use UI mockups or wireframes if possible.
+  - Style: Informative, user-centric.
+
+- Slide 5 (UVP):
+  - Suggestion: A 2x2 matrix (magic quadrant) plotting your solution against competitors. Use your logo to represent your position.
+  - Style: Analytical, confident.
+
+- Slide 6 (Market Size):
+  - Suggestion: A nested diagram (like three concentric circles) to visually represent TAM, SAM, and SOM. Label each circle clearly with the dollar amount.
+  - Style: Data visualization, clear.
+
+- Slide 7 (Business Model):
+  - Suggestion: Use simple icons to represent each pricing tier (e.g., a single gear for Basic, multiple gears for Pro).
+  - Style: Simple, graphical.
+
+- Slide 8 (Competition):
+  - Suggestion: A clean, easy-to-read table. Use green checkmarks for your strengths and red 'X's for competitor weaknesses.
+  - Style: Direct, comparative.
+
+- Slide 9 (Roadmap):
+  - Suggestion: A horizontal timeline graphic with key milestones plotted along it.
+  - Style: Forward-looking, organized.
+
+- Slide 10 (Team & Ask):
+  - Suggestion: Placeholder circles for team member photos. A large, clear box stating the "Ask" in a bold font. End with a clean slide showing only the logo and contact info.
+  - Style: Personable, direct, professional.
