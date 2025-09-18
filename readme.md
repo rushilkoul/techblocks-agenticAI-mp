@@ -5,7 +5,7 @@
 
 ![Hackathon](https://img.shields.io/badge/Event-IEEE_SB_JIIT%20Techblocks%2011.1-blue.svg)  
 ![Framework](https://img.shields.io/badge/Framework-Google%20ADK-orange.svg)  
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg))  
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 
 Hackmate is a **multi-agent AI system** built with the Google Agent Development Kit (ADK) to supercharge your hackathon workflow.  
 It automates the **entire pre-development lifecycle** — from analyzing the theme and brainstorming innovative ideas to drafting a project roadmap and generating a full presentation deck.  
