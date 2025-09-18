@@ -99,7 +99,7 @@ Run the following command to start Hackmate:
 ```bash
 adk web
 ```
-Open your browser at the URL provided (usually http://127.0.0.1:8080) to start using Hackmate! 🎉
+Open your browser at the URL provided (usually http://127.0.0.1:8000/dev-ui) to start using Hackmate! 🎉
 
 
 ---
