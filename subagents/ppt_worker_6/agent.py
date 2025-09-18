@@ -12,5 +12,5 @@ ppt_worker_6 = Agent(
     model="gemini-2.0-flash",
     description="Generates Competitive Landscape slide.",
     instruction=worker_instructions,
-    # tools=[add_slide]
+    tools=[add_slide]
 )

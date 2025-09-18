@@ -12,5 +12,5 @@ ppt_worker_2 = Agent(
     model="gemini-2.0-flash",
     description="Generates Title & Introduction slide.",
     instruction=worker_instructions,
-    # tools=[add_slide]
+    tools=[add_slide]
 )

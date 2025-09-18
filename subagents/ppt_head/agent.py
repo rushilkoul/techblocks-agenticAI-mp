@@ -22,11 +22,10 @@ from subagents.ppt_worker_8.agent import ppt_worker_8
 from .tools.ppt_tool import save_ppt
 
 
-# 🔹 Parallel worker group
-ppt_workers = ParallelAgent(
+# 🔹 Sequential worker group
+ppt_workers = SequentialAgent(
     name="ppt_workers",
-    # model="gemini-2.0-flash",
-    description="All workers generate their own slides simultaneously.",
+    description="All workers generate their slides one after another in sequence.",
     sub_agents=[
         ppt_worker_1,
         ppt_worker_2,
@@ -53,11 +52,9 @@ ppt_saver = Agent(
 # 🔹 Head agent (Sequential flow)
 ppt_head = SequentialAgent(
     name="ppt_head",
-    # model="gemini-2.0-flash",
     description="Coordinates PowerPoint draft creation by first delegating slide generation, then saving the result.",
-    # instruction=ppt_instructions,
     sub_agents=[
-        ppt_workers,   # run all slide creators in parallel
-        # ppt_saver      # finally save the ppt
+        ppt_workers,
+        ppt_saver
     ],
 )

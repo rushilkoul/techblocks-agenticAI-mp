@@ -31,7 +31,6 @@ def add_slide(title: str, bullets: list[str]):
         p.font.name = "Calibri"
         p.alignment = PP_ALIGN.LEFT
 
-def save_ppt(filepath="output.pptx"):
-    """Save the final PPT."""
+def save_ppt(filepath=r"C:\\Users\\Rushil\\Desktop\\Projects\\techblocks-agenticAI-mp\\output.pptx"): # ? IDK BHAI CHAL JAA NA
     prs.save(filepath)
     print(f"[✅] PPT saved at {filepath}")

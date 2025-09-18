@@ -12,5 +12,5 @@ ppt_worker_8 = Agent(
     model="gemini-2.0-flash",
     description="suggests visual elements for each slide",
     instruction=worker_instructions,
-    # tools=[add_slide]
+    tools=[add_slide]
 )
