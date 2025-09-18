@@ -24,7 +24,7 @@ Follow these steps to set up and run Hackmate on your local machine.
 
 ---
 
-### 📥 Step 1: Get the Code  
+ 
  
 ## ⭐ Star this Repo
 
@@ -36,6 +36,7 @@ Loving this project? Support it by giving a **star**! 🌟
 3. That’s it — Thank you 
 
 ---
+### 📥 Step 1: Get the Code 
 ### now You have **two options**:  
 
 **Option A – Clone with Git:**  
