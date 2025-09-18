@@ -3,7 +3,7 @@
 # Hackmate  
 ### Your AI-Powered Multi-Agent Hackathon Assistant 🚀  
 
-![Hackathon](https://img.shields.io/badge/Event-IEEE SB JIIT %20Techblocks%2011.1-blue.svg)  
+![Hackathon](https://img.shields.io/badge/Event-IEEE_SB_JIIT %20Techblocks%2011.1-blue.svg)  
 ![Framework](https://img.shields.io/badge/Framework-Google%20ADK-orange.svg)  
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)  
 
