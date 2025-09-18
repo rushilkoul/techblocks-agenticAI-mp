@@ -42,7 +42,7 @@ Click on Code → Download ZIP.
 Extract the ZIP and open the folder in your terminal:
 
 
-cd hackmate
+cd hackmate(or name of zip file/folder)
 
 
 ---
