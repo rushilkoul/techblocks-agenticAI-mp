@@ -32,7 +32,7 @@ You have **two options**:
 ```sh
 git clone https://github.com/your-username/hackmate.git
 cd hackmate
-
+```
 Option B – Download ZIP:
 
 Go to the GitHub repository.
