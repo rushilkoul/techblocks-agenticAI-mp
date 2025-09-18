@@ -3,7 +3,7 @@
 # Hackmate  
 ### Your AI-Powered Multi-Agent Hackathon Assistant 🚀  
 
-![Hackathon](https://img.shields.io/badge/Event-IEEE%20Techblocks%2011.1-blue.svg)  
+![Hackathon](https://img.shields.io/badge/Event-IEEE SB JIIT %20Techblocks%2011.1-blue.svg)  
 ![Framework](https://img.shields.io/badge/Framework-Google%20ADK-orange.svg)  
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)  
 
@@ -47,7 +47,7 @@ cd hackmate
 
 ---
 
-🛠️ Step 2: Create and Activate a Virtual Environment
+### 🛠️ Step 2: Create and Activate a Virtual Environment
 
 It’s best practice to use a virtual environment to isolate dependencies.
 
@@ -66,7 +66,7 @@ If successful, your terminal will show (venv) at the beginning of the line.
 
 ---
 
-📦 Step 3: Install Dependencies
+### 📦 Step 3: Install Dependencies
 
 Install all required Python libraries from requirements.txt:
 
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 ---
 
-🔑 Step 4: Configure Environment Variables
+### 🔑 Step 4: Configure Environment Variables
 
 1. Create a new file named .env in the project root.
 
@@ -92,7 +92,7 @@ API_KEY="YOUR_SECRET_API_KEY_HERE"
 
 ---
 
-🚀 Step 5: Launch Hackmate
+### 🚀 Step 5: Launch Hackmate
 
 Run the following command to start Hackmate:
 
@@ -103,14 +103,13 @@ Open your browser at the URL provided (usually http://127.0.0.1:8080) to start u
 
 ---
 
-🤖 System Architecture & Agents
+## System Architecture & Agents
 
 Hackmate uses a multi-agent architecture with a central Manager Agent that coordinates everything.
 
 
 ---
-
-🧠 Manager Agent
+###  Manager Agent
 
 Acts as the brain of Hackmate.
 
@@ -123,10 +122,9 @@ Delegates tasks to specialized agents.
 
 
 ---
+## Phase 1: Ideation & Analysis
 
-🔍 Phase 1: Ideation & Analysis (Sequential)
-
-1. Theme Analyzer
+### 1. Theme Analyzer
 
 Deeply analyzes the hackathon theme.
 
@@ -134,7 +132,7 @@ Identifies concepts, user personas, pain points, existing solutions, and ethical
 
 
 
-2. Idea Forge (loop with two sub-agents):
+### 2. Idea Forge (loop with two sub-agents):
 
 Idea Analyzer: Generates diverse and creative ideas.
 
@@ -148,7 +146,7 @@ Provides a ranked shortlist of best ideas.
 
 ---
 
-🏗️ Phase 2: Planning & Presentation (Parallel Execution)
+## Phase 2: Planning & Presentation (Parallel Execution)
 
 Once you select an idea, two agents start working in parallel:
 
@@ -199,7 +197,7 @@ Visuals & demo flow
 
 ---
 
-🗂️ Text-Based Flowchart
+## 🗂️ Text-Based Flowchart
 
 Here’s how Hackmate’s flow looks in text format:
 
@@ -208,21 +206,21 @@ User Input (Hackathon Theme)
         ▼
  Manager Agent
         │
-        ├── Phase 1 (Sequential)
+        ├── 
         │       ├── Theme Analyzer
-        │       ▼
+        │       
         │   Idea Forge (loop)
         │       ├── Idea Analyzer
         │       └── Idea Evaluator
         │
-        └── Phase 2 (Parallel)
-                ├── Drafter Agent ──► Roadmap, Tech Stack, Milestones
-                └── PPT Head Agent ─► Supervises 8 Workers ─► Full Presentation
+        └── 
+                ├── Drafter Agent ──► Roadmap, 
+                                   └── PPT Head           Agent ─► Supervises 8 Workers ─► Full Presentation
 
 
 ---
 
-🎯 Why Hackmate?
+## 🎯 Why Hackmate?
 
 ⏱️ Save time on planning and slides
 
@@ -236,13 +234,9 @@ User Input (Hackathon Theme)
 
 ---
 
-📌 License
+## 📌 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
-
-Bhai ab seedha isko `README.md` me daal aur tera project ekdum **pro level hackathon ready** lagega 🚀🔥  
-
-Chaahta hai main ek **“Demo” section** bhi dal dun (jisme tu GIF/screenshot add karega) taaki aur attractive lage?
 
