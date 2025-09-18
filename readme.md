@@ -218,7 +218,9 @@ User Input (Hackathon Theme).
                 ├── Drafter Agent ──► Roadmap,           
                                    └── PPT Head                 Agent ─► Supervises 8 Workers ─► Full Presentation
 
+## 📊 Flowchart
 
+[![Flowchart](https://drive.google.com/uc?export=view&id=15q3kT5pTIQ0QytB_nCDGpKsfKTGMZ9as)](https://drive.google.com/file/d/15q3kT5pTIQ0QytB_nCDGpKsfKTGMZ9as/view?usp=drivesdk)
 ---
 
 ## 🎯 Why Hackmate?
