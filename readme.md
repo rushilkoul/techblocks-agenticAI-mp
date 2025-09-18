@@ -202,18 +202,18 @@ Visuals & demo flow
 
 Here’s how Hackmate’s flow looks in text format:
 
-User Input (Hackathon Theme)
+User Input (Hackathon Theme).      
         │
         ▼
- Manager Agent
-        │
+ Manager Agent.    
+        │.      
         ├── 
         │       ├── Theme Analyzer.           
-        │       
+        │.                 
         │   Idea Forge (loop).           
         │       ├── Idea Analyzer.           
         │       └── Idea Evaluator.           
-        │
+        │.      
         └── 
                 ├── Drafter Agent ──► Roadmap,           
                                    └── PPT Head                 Agent ─► Supervises 8 Workers ─► Full Presentation
