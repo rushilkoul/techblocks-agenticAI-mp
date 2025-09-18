@@ -41,9 +41,9 @@ Click on Code → Download ZIP.
 
 Extract the ZIP and open the folder in your terminal:
 
-
+```bash
 cd hackmate(or name of zip file/folder)
-
+```
 
 ---
 
@@ -52,15 +52,16 @@ cd hackmate(or name of zip file/folder)
 It’s best practice to use a virtual environment to isolate dependencies.
 
 For macOS / Linux:
-
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 For Windows:
 
+```bash 
 python -m venv venv
 .\venv\Scripts\activate
-
+```
 If successful, your terminal will show (venv) at the beginning of the line.
 
 
@@ -69,9 +70,9 @@ If successful, your terminal will show (venv) at the beginning of the line.
 ### 📦 Step 3: Install Dependencies
 
 Install all required Python libraries from requirements.txt:
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
@@ -85,19 +86,19 @@ pip install -r requirements.txt
 
 
 Example:
-
+```bash
 # .env file
-API_KEY="YOUR_SECRET_API_KEY_HERE"
-
+GOOGLE_API_KEY="YOUR_SECRET_API_KEY_HERE"
+```
 
 ---
 
 ### 🚀 Step 5: Launch Hackmate
 
 Run the following command to start Hackmate:
-
+```bash
 adk web
-
+```
 Open your browser at the URL provided (usually http://127.0.0.1:8080) to start using Hackmate! 🎉
 
 
